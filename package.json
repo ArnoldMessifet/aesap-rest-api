@@ -1,0 +1,49 @@
+{
+  "name": "aesap-rest-api",
+  "version": "1.0.0",
+  "description": "A REST API designed to manage the small company of a private teacher. Built with love with ExpressJS and SequelizeJS. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/nodemon server.js",
+    "lint": "node_modules/.bin/eslint --fix ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnoldMessifet/aesap-rest-api.git"
+  },
+  "keywords": [
+    "ExpressJS",
+    "SequelizeJS."
+  ],
+  "author": "Arnold MESSIFET",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnoldMessifet/aesap-rest-api/issues"
+  },
+  "homepage": "https://github.com/ArnoldMessifet/aesap-rest-api#readme",
+  "engines": {
+    "node": "~8.11.1",
+    "npm": "~5.6.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-async-errors": "^2.1.2",
+    "helmet": "^3.12.0",
+    "joi": "^13.2.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/joi": "^13.0.7",
+    "@types/sequelize": "^4.27.14",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "nodemon": "^1.17.3",
+    "prettier": "1.12.1"
+  }
+}
